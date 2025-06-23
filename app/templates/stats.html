@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Project Statistics - Cloud Document Analyzer{% endblock %}
+
+{% block extra_head %}
+<style>
+  .stats-container {
+    background: white;
+    padding: 35px 40px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  h2 {
+    color: #b30000;
+    margin-bottom: 30px;
+  }
+
+  .stat {
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #333;
+  }
+
+  strong {
+    color: #b30000;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+  <div class="stats-container">
+    <h2>Project Statistics</h2>
+    <div class="stat">Stored Files: <strong>{{ file_count }}</strong></div>
+    <div class="stat">Total Size: <strong>{{ size_mb }} MB</strong></div>
+    <div class="stat">Sorting Time: <strong>{{ sort_time }} sec</strong></div>
+    <div class="stat">Search Time: <strong>{{ search_time }} sec</strong></div>
+    <div class="stat">Classification Time: <strong>{{ classify_time }} sec</strong></div>
+  </div>
+{% endblock %}

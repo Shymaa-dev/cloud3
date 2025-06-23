@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Cloud Document Analyzer | الصفحة الرئيسية{% endblock %}
+
+{% block content %}
+<style>
+  body {
+    background: linear-gradient(135deg, #b30000, #ff4d4d);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .main-card {
+    background: white;
+    color: #b30000;
+    border-radius: 16px;
+    padding: 40px 30px;
+    max-width: 650px;
+    margin: 60px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .main-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .btn-red {
+    background-color: #b30000;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 18px;
+    transition: 0.3s ease;
+  }
+
+  .btn-red:hover {
+    background-color: #800000;
+    color: #fff;
+  }
+
+  footer {
+    margin-top: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.85;
+  }
+</style>
+
+<div class="main-card text-center">
+  <h1 class="fw-bold mb-4">
+    مرحبًا بكم في <br>
+    Cloud Document Analyzer
+  </h1>
+  <p class="fs-5 mb-4">
+    المنصة الذكية المتخصصة في معالجة وإدارة المستندات السحابية باستخدام تقنيات الذكاء الاصطناعي.<br>
+    يمكنكم رفع ملفات PDF وWord، حيث نوفر لكم خدمات فرزها وتصنيفها والبحث ضمن محتواها بدقة وفعالية عالية.
+  </p>
+  <a href="{{ url_for('upload_file') }}" class="btn btn-red">
+    ابدأ الآن
+  </a>
+</div>
+
+
+
+{% endblock %}
