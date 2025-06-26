@@ -70,8 +70,15 @@ You can find visuals of the following:
 - Category classification view
 - System statistics dashboard
 
----
-
+--
+## 📸 Screenshots
+1.Home Page: Overview and entry point to functionalities.
+2.Upload Page: Form to upload documents, with client-side file validation.
+3.Documents Page: Lists documents sorted by title.
+4.Search Page: Input field and search results with matched lines.
+5.Classify Page: Button to trigger classification and display categorized documents.
+6.Categories Page: Predefined category definitions and their respective files.
+7.Statistics Page: Displays number of files, total size, and processing durations.
 ## 🚀 Deployment
 
 This application is deployed on **PythonAnywhere**, a cloud PaaS for Python-based applications.
