@@ -73,6 +73,7 @@ You can find visuals of the following:
 --
 ## 📸 Screenshots
 1.Home Page: Overview and entry point to functionalities.
+https://github.com/Shymaa-dev/cloud3/blob/6fe4f168d472cfa96ee41f1fe339cb63df57689b/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A5%D9%A0%D9%A6%D9%A2%D9%A6-%D9%A1%D9%A1%D9%A3%D9%A0%D9%A1%D9%A1_Chrome.jpg
 2.Upload Page: Form to upload documents, with client-side file validation.
 3.Documents Page: Lists documents sorted by title.
 4.Search Page: Input field and search results with matched lines.
